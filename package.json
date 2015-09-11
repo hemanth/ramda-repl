@@ -1,0 +1,33 @@
+{
+  "name": "ramda-repl",
+  "version": "0.0.0",
+  "description": "Ramda REPL",
+  "license": "MIT",
+  "repository": "hemanth/ramda-repl",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "ramda",
+    "ramda-repl"
+  ],
+  "dependencies": {
+    "ramda": "^0.17.1"
+  },
+  "devDependencies": {}
+}

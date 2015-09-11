@@ -27,11 +27,20 @@ $ npm install --global ramda-repl
 
 $ ramda-repl
 
-__Will start a REPL as below with `R` exposed as ramda__
+__Will start a REPL as below with `R` as well as current context is extended with ramda__
 
 ```
 Welcome to Ramda REPL!
-λ > 
+
+λ > typeof R 
+'object'
+
+λ > typeof map
+'function'
+
+λ > typeof zipWith
+'function'
+
 ```
 
 ## GIF FTW

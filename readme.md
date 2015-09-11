@@ -21,10 +21,10 @@ ramdaRepl();
 
 ## CLI
 
-```
+```sh
 $ npm install --global ramda-repl
 ```
-```
+
 $ ramda-repl
 
 __Will start a REPL as below with `R` exposed as ramda__

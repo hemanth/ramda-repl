@@ -1,5 +1,5 @@
 # ramda-repl 
-> [Ramda](http://ramdajs.com/) REPL 
+> [Ramda](http://ramdajs.com/) + [ramda-fantasy](https://www.npmjs.com/package/ramda-fantasy) REPL 
 
 
 ## Install

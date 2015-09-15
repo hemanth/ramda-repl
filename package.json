@@ -1,7 +1,7 @@
 {
   "name": "ramda-repl",
   "version": "2.0.0",
-  "description": "Ramda REPL",
+  "description": "Ramda + Ramda Fantasy REPL",
   "license": "MIT",
   "repository": "hemanth/ramda-repl",
   "author": {
@@ -28,6 +28,7 @@
   ],
   "dependencies": {
     "ramda": "^0.17.1",
+    "ramda-fantasy": "^0.4.0",
     "repl.history": "^0.1.3"
   },
   "devDependencies": {}

@@ -13,5 +13,9 @@ module.exports = function() {
 	R.functions(R).forEach(function(f) {
 	  repl.context[f] = R[f];
 	});
+
+	var F = repl.context.fantasy =  require('ramda-fantasy');
+
+	R.map(function(f){repl.context[f] = F[f]},R.keys(F))
 };
 

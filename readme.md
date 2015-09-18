@@ -25,7 +25,9 @@ ramdaRepl();
 $ npm install --global ramda-repl
 ```
 
+```sh
 $ ramda-repl
+```
 
 __Will start a REPL as below with `R` as well as current context is extended with ramda__
 

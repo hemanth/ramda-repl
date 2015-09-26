@@ -27,9 +27,9 @@
     "ramda-repl"
   ],
   "dependencies": {
-    "ramda": "^0.17.1",
-    "ramda-fantasy": "^0.4.0",
-    "repl.history": "^0.1.3"
+    "ramda": "0.17.1",
+    "ramda-fantasy": "0.4.0",
+    "repl.history": "0.1.3"
   },
   "devDependencies": {}
 }

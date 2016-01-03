@@ -11,9 +11,9 @@ module.exports = function() {
 	var R = repl.context.R = require('ramda');
 
 	for (var key in R){
-        repl.context[key] = R[key];
-    }
-    
+        	repl.context[key] = R[key];
+    	}
+    	
 	var F = repl.context.fantasy =  require('ramda-fantasy');
 
 	R.map(function(f){repl.context[f] = F[f]},R.keys(F))

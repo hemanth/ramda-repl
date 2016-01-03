@@ -10,9 +10,9 @@ module.exports = function() {
 
 	var R = repl.context.R = require('ramda');
 
-	R.functions(R).forEach(function(f) {
-	  repl.context[f] = R[f];
-	});
+	for (var key in R){
+        repl.context[key] = R[key];
+    }
 
 	var F = repl.context.fantasy =  require('ramda-fantasy');
 

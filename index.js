@@ -1,6 +1,7 @@
 'use strict';
 var os = require('os'),
-empty = '(' + os.EOL + ')';
+empty = '(' + os.EOL + ')',
+has = Object.prototype.hasOwnProperty;
 console.log('Welcome to Ramda REPL!\n');
 
 module.exports = function() {
@@ -11,7 +12,7 @@ module.exports = function() {
 	var R = repl.context.R = require('ramda');
 
 	for (var key in R){
-		if (R.hasownProperty(key)) {
+		if (has.call(R, key)) {
 			repl.context[key] = R[key];
 		}
 	}

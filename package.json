@@ -18,7 +18,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "greetings.js"
   ],
   "keywords": [
     "cli-app",
@@ -29,7 +30,8 @@
   "dependencies": {
     "ramda": "^0.19.1",
     "ramda-fantasy": "^0.4.0",
-    "repl.history": "^0.1.3"
+    "repl.history": "^0.1.3",
+    "chalk": "^1.0.0"
   },
   "devDependencies": {}
 }

@@ -1,9 +1,10 @@
 'use strict';
+
 var os = require('os'),
 greetings = require('./greetings'),
 empty = '(' + os.EOL + ')',
 has = Object.prototype.hasOwnProperty;
-console.log('Welcome to Ramda REPL!\n');
+console.log(greetings);
 
 module.exports = function() {
     var repl = require('repl').start({'prompt': 'λ > '});
@@ -22,4 +23,3 @@ module.exports = function() {
 
     R.map(function(f){repl.context[f] = F[f]},R.keys(F))
 };
-

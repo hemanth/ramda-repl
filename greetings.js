@@ -3,15 +3,14 @@
 var chalk = require('chalk');
 
 var greetings = '\n' +
-    chalk.magenta(' λλλλλλλλ                                          \n') +
-    chalk.magenta("λλλλλλλλλλ                                         \n") +
-    chalk.magenta("λλ λλλλλλλλλλλ                                     \n") +
-    chalk.magenta("λλλλλλλλλλλλλλλ                                    \n") +
-    chalk.magenta("   λλλλλλλλλλλλ      λλλλ    λλλλλ   λλλλλ    λλ   \n") +
-    chalk.magenta("   λλλλ  λλλλλλ      λλ λλ   λλ      λλ λλ    λλ   \n") +
-    chalk.magenta('  λλλλ    λλλλλλ     λλλλλ   λλλλλ   λλλλλ    λλ  \n') +
-    chalk.magenta(" λλλλ      λλλλλ     λλ λλ   λλ      λλλλλ    λλ \n") +
-    chalk.magenta("λλλλ        λλλλ     λλ λλ   λλλλλ   λλ       λλλλ \n") +
+    chalk.magenta(' λλλλλλλλ                                                             \n') +
+    chalk.magenta("λλλλλλλλλλ                                                            \n") +
+    chalk.magenta("λλλλλλλλλλλλλλ                                                        \n") +
+    chalk.magenta("  λλλλλλλλλλλλλ         λλλλλλλ         λλλλλλλ        λλλλλλλ        λλ    \n") +
+    chalk.magenta("   λλλλ  λλλλλλλ        λλ   λλ         λλ             λλ    λ        λλ    \n") +
+    chalk.magenta("  λλλλ    λλλλλλ        λλλλλλλ         λλλλλλλ        λλλλλλλ        λλ    \n") +
+    chalk.magenta(' λλλλ      λλλλλ        λλ  λλλ         λλ             λλ             λλ    \n') +
+    chalk.magenta("λλλλ        λλλλ        λλ   λλλ        λλλλλλλ        λλ             λλλλλλ\n") +
 
     chalk.gray("\n Welcome to the amazing ") +
     chalk.magenta("Ramda ") +

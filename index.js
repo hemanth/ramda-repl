@@ -2,9 +2,6 @@ const repl = require('repl'),
   history = require('repl.history'),
   R = require('ramda'),
   F = require('ramda-fantasy'),
-  greetings = require('./greetings');
-
-console.log(greetings);
 
 const Ewe = () => {
   const bleat = repl.start({

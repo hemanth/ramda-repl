@@ -1,6 +1,6 @@
 {
   "name": "ramda-repl",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Ramda + Ramda Fantasy REPL",
   "license": "MIT",
   "repository": "hemanth/ramda-repl",

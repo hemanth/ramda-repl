@@ -1,4 +1,4 @@
-const chalk = require('chalk');
+const chalk = ((m) => (m && m.default) ? m.default : m)(require(''chalk''));
 const greetings = '\n' +
   chalk.magenta(' λλλλλλλλ                                                             \n') +
   chalk.magenta("λλλλλλλλλλ                                                            \n") +
